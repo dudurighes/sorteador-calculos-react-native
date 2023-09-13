@@ -1,0 +1,120 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    padding: 20,
+    flex: 1,
+    paddingTop: 50,
+    backgroundColor: "#383535",
+    justifyContent: "space-between",
+  },
+  titlePoints: {
+    color: "#FFF",
+    fontSize: 25,
+    fontWeight: "bold",
+  },
+  containerRespostas: {
+    backgroundColor: "#383535",
+    flexDirection: "row",
+    width: "100%",
+    justifyContent: "space-between",
+    marginTop: 20,
+    marginBottom: 20,
+  },
+  containerRespostasItem: {
+    backgroundColor: "#383535",
+    flexDirection: "row",
+    gap: 10,
+    alignItems: "center",
+  },
+  buttonSortear: {
+    backgroundColor: "#5D5FEF",
+    height: 48,
+    width: "60%",
+    borderRadius: 10,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  buttonSortearText: {
+    color: "#FFF",
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+  containerSecundario: {
+    borderBottomColor: "#FFF",
+    borderBottomWidth: 1,
+    alignItems: "center",
+    paddingBottom: 20,
+  },
+  containerResponder: {
+    margin: 30,
+    gap: 30,
+  },
+  globalText: {
+    color: "#FFF",
+    fontWeight: "bold",
+    fontSize: 18,
+  },
+  buttonValidar: {
+    backgroundColor: "#04D361",
+    height: 56,
+    width: "100%",
+    borderRadius: 10,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  buttonValidarText: {
+    color: "#FFF",
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+  containerCentralizado: {
+    alignItems: "center",
+    width: "100%",
+  },
+  buttonNovoJogo: {
+    backgroundColor: "#D34C6C",
+    height: 48,
+    marginTop: 70,
+    width: "60%",
+    borderRadius: 10,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  buttonNovoJogoText: {
+    color: "#FFF",
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+  containerCalculos: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  textCertas: {
+    color: "#4EA8DE",
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+  textErradas: {
+    color: "#D34C6C",
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+  respostas: {
+    color: "#FFF",
+    backgroundColor: "#383535",
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+  input: {
+    backgroundColor: "#F6F6F6",
+    height: 56,
+    borderRadius: 10,
+    width: "50%",
+    color: "#8C4FCA",
+    fontWeight: "bold",
+    fontSize: 20,
+    textAlign: "center",
+  },
+});
